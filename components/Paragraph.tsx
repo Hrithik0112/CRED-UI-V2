@@ -8,7 +8,7 @@ const Paragraph = ({ value }: { value: string }) => {
 
   const { scrollYProgress } = useScroll({
     target: container,
-    offset: ["start 0.70", "end end"],
+    offset: ["start 0.70", "end 0.52"],
   });
 
   const words = value.split(" ");
@@ -22,7 +22,7 @@ const Paragraph = ({ value }: { value: string }) => {
         const start = i / words.length;
         const end = start + (1 / words.length); // prettier-ignore
 
-        console.log([start, end]);
+        // console.log([start, end]);
         return (
           <Word key={i} range={[start, end]} progress={scrollYProgress}>
             {word}
