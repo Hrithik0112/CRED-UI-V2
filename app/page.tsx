@@ -1,3 +1,4 @@
+import Deserve from "@/components/Deserve";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import NotEveryOne from "@/components/NotEveryOne";
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <NotEveryOne />
+      <Deserve />
     </main>
   );
 }
