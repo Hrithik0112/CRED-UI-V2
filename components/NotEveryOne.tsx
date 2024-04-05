@@ -1,7 +1,8 @@
 import React from "react";
+import Paragraph from "./Paragraph";
 
 const paragraph =
-  "The story of cred begins with trust. we believe individuals who've proven their trustwothiness deserve better: better experiences, better rewards, better rules. this is the status quo we're building. make it to the club, and experience the ascension yourself";
+  "the story of CRED begins with trust. we believe individuals who've proven their trustworthiness deserve better: better experiences, better rewards, better rules. this is the status quo we're building. make it to the club, and experience the ascension yourself.";
 
 const NotEveryOne = () => {
   return (
@@ -13,12 +14,7 @@ const NotEveryOne = () => {
         </div>
         {/* text reveal */}
         <div>
-          <p className="text-[70px] font-denton font-light leading-[100px] text-left">
-            The story of cred begins with trust. we believe individuals who've proven their
-            trustworthiness deserve better: better experiences, better rewards, better rules. this
-            is the status quo we're building. make it to the club, and experience the ascension
-            yourself.
-          </p>
+          <Paragraph value={paragraph} />
         </div>
       </div>
     </div>
