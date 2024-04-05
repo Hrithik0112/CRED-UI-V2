@@ -1,8 +1,23 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Questrial } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const questrial = Questrial({ weight: ["400"], subsets: ["latin"] });
+
+const denton = localFont({
+  src: [
+    {
+      path: "../public/fonts/bold700.otf",
+      weight: "700",
+    },
+    {
+      path: "../public/fonts/light300.otf",
+      weight: "300",
+    },
+  ],
+  variable: "--font-denton",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${questrial.className} ${denton.variable}`}>{children}</body>
     </html>
   );
 }
