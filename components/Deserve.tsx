@@ -11,7 +11,7 @@ const Deserve = () => {
         className="w-full h-full object-cover "
       />
       {/* text */}
-      <div className="flex flex-col items-center justify-center pt-[50px] bg-black ">
+      <div className="flex flex-col items-center justify-center pt-[50px] bg-black  ">
         <div className="w-full gap-10 flex flex-col justify-center items-center bg-transparent">
           <div className="text-[113px] leading-[101px] text-center font-denton font-bold">
             all that you deserve.

@@ -18,16 +18,19 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
     rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .border-gradient {
+    border-width: 2px; /* Adjust border width as needed */
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(0, 0, 0), rgb(74, 73, 73), rgb(0, 0, 0)) 1 / 0 0
+      100%;
   }
 }
