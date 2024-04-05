@@ -3,6 +3,7 @@ import Deserve from "@/components/Deserve";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import NotEveryOne from "@/components/NotEveryOne";
+import Upgrade from "@/components/Upgrade";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <NotEveryOne />
       <Deserve />
       <CreditCards />
+      <Upgrade />
     </main>
   );
 }
