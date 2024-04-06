@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${questrial.className} ${denton.variable}`}>{children}</body>
+      <body className={`${questrial.className} ${denton.variable} bg-black`}>{children}</body>
     </html>
   );
 }
