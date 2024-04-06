@@ -6,6 +6,7 @@ import NotEveryOne from "@/components/NotEveryOne";
 import Upgrade from "@/components/Upgrade";
 import Rewards from "@/components/Rewards";
 import DataSafety from "@/components/DataSafety";
+import Rating from "@/components/Rating";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Upgrade />
       <Rewards />
       <DataSafety />
+      <Rating />
     </main>
   );
 }

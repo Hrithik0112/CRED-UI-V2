@@ -22,7 +22,7 @@ const DataSafety = () => {
           className="text-[64px] font-semibold leading-[82px] text-center mt-[60px] text-white text-opacity-15 spot-light bg-clip-text backdrop-blur-md bg-no-repeat [background-size:450px_450px] cursor-default "
           style={{
             backgroundPositionX: x - 450,
-            backgroundPositionY: y - 450,
+            backgroundPositionY: y - 500,
           }}
         >
           all your personal data and

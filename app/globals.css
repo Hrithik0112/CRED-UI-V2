@@ -18,7 +18,7 @@ body {
   }
 
   .border-gradient {
-    border-width: 2px; /* Adjust border width as needed */
+    border-width: 1px; /* Adjust border width as needed */
     border-style: solid;
     border-image: linear-gradient(to right, rgb(0, 0, 0), rgb(74, 73, 73), rgb(0, 0, 0)) 1 / 0 0
       100%;
@@ -31,5 +31,8 @@ body {
       rgba(255, 255, 255, 0.4) 80%,
       transparent 100%
     );
+  }
+  .rating-bg {
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(19, 19, 19), rgb(0, 0, 0));
   }
 }
