@@ -33,4 +33,13 @@ body {
     border-image: linear-gradient(to right, rgb(0, 0, 0), rgb(74, 73, 73), rgb(0, 0, 0)) 1 / 0 0
       100%;
   }
+  .spot-light {
+    background-image: radial-gradient(
+      circle closest-side at 50% 50%,
+      rgb(255, 255, 255) 50%,
+      rgb(255, 255, 255) 60%,
+      rgba(255, 255, 255, 0.4) 80%,
+      transparent 100%
+    );
+  }
 }

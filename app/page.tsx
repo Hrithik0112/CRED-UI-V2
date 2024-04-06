@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import NotEveryOne from "@/components/NotEveryOne";
 import Upgrade from "@/components/Upgrade";
 import Rewards from "@/components/Rewards";
+import DataSafety from "@/components/DataSafety";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <CreditCards />
       <Upgrade />
       <Rewards />
+      <DataSafety />
     </main>
   );
 }
