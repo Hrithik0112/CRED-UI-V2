@@ -7,6 +7,7 @@ import Upgrade from "@/components/Upgrade";
 import Rewards from "@/components/Rewards";
 import DataSafety from "@/components/DataSafety";
 import Rating from "@/components/Rating";
+import GetsIt from "@/components/GetsIt";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Rewards />
       <DataSafety />
       <Rating />
+      <GetsIt />
     </main>
   );
 }
