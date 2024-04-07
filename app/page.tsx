@@ -8,6 +8,7 @@ import Rewards from "@/components/Rewards";
 import DataSafety from "@/components/DataSafety";
 import Rating from "@/components/Rating";
 import GetsIt from "@/components/GetsIt";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <DataSafety />
       <Rating />
       <GetsIt />
+      <Footer />
     </main>
   );
 }
