@@ -1,3 +1,15 @@
+# CRED UI 2.0
+
+One of the best Landing Page in my opinion.
+
+## Built using :
+
+- Next.js 14
+- React
+- Tailwind CSS
+- Framer Motion
+- Typescript
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
