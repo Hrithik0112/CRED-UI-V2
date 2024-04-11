@@ -9,29 +9,29 @@ const NavbarOverlay = () => {
         <div className="pt-[200px] flex justify-start items-start w-full">
           {/* left side  */}
           <div className="flex flex-col justify-center items-center">
-            <div className="relative overflow-hidden pt-8 pb-8 border-b-[1px_solid_rgba(255,_255,_255,_0.2)] w-full">
+            <div className="relative overflow-hidden pt-8 pb-8 border-b border-white border-opacity-20 w-full hover:after:opacity-60 after:opacity-0 opacity-60 hover:opacity-100 after:content-[''] after:absolute after:right-0 after:top-0 after:w-4/5 after:h-full after:[transition:opacity_0.5s_ease_0s] after:bg-[radial-gradient(506.71%_128.77%_at_24.44%_36.7%,_rgba(255,_255,_255,_0.2)_0%,_rgba(255,_255,_255,_0.2)_97.72%)] after:filter after:blur-[48.78px]">
               <div className="w-full  text-2xl not-italic font-medium leading-7 tracking-[6px] uppercase text-left pl-0 pr-[150px] py-0 text-white">
                 What's New
               </div>
             </div>
-            <div className="relative overflow-hidden pt-8 pb-8 border-b-[1px_solid_rgba(255,_255,_255,_0.2)] w-full">
+            <div className="relative overflow-hidden pt-8 pb-8 border-b border-white border-opacity-20 w-full hover:after:opacity-60 after:opacity-0 opacity-60 hover:opacity-100 after:content-[''] after:absolute after:right-0 after:top-0 after:w-4/5 after:h-full after:[transition:opacity_0.5s_ease_0s] after:bg-[radial-gradient(506.71%_128.77%_at_24.44%_36.7%,_rgba(255,_255,_255,_0.2)_0%,_rgba(255,_255,_255,_0.2)_97.72%)] after:filter after:blur-[48.78px] ">
               <div className="w-full  text-2xl not-italic font-medium leading-7 tracking-[6px] uppercase text-left pl-0 pr-[150px] py-0 text-white">
-                What's New
+                PAYMENTS
               </div>
             </div>
-            <div className="relative overflow-hidden pt-8 pb-8 border-b-[1px_solid_rgba(255,_255,_255,_0.2)] w-full">
+            <div className="relative overflow-hidden pt-8 pb-8 border-b border-white border-opacity-20 w-full hover:after:opacity-60 after:opacity-0 opacity-60 hover:opacity-100 after:content-[''] after:absolute after:right-0 after:top-0 after:w-4/5 after:h-full after:[transition:opacity_0.5s_ease_0s] after:bg-[radial-gradient(506.71%_128.77%_at_24.44%_36.7%,_rgba(255,_255,_255,_0.2)_0%,_rgba(255,_255,_255,_0.2)_97.72%)] after:filter after:blur-[48.78px]">
               <div className="w-full  text-2xl not-italic font-medium leading-7 tracking-[6px] uppercase text-left pl-0 pr-[150px] py-0 text-white">
-                What's New
+                UPGRADS
               </div>
             </div>
-            <div className="relative overflow-hidden pt-8 pb-8 border-b-[1px_solid_rgba(255,_255,_255,_0.2)] w-full">
+            <div className="relative overflow-hidden pt-8 pb-8 border-b border-white border-opacity-20 w-full hover:after:opacity-60 after:opacity-0 opacity-60 hover:opacity-100 after:content-[''] after:absolute after:right-0 after:top-0 after:w-4/5 after:h-full after:[transition:opacity_0.5s_ease_0s] after:bg-[radial-gradient(506.71%_128.77%_at_24.44%_36.7%,_rgba(255,_255,_255,_0.2)_0%,_rgba(255,_255,_255,_0.2)_97.72%)] after:filter after:blur-[48.78px]">
               <div className="w-full  text-2xl not-italic font-medium leading-7 tracking-[6px] uppercase text-left pl-0 pr-[150px] py-0 text-white">
-                What's New
+                company
               </div>
             </div>
-            <div className="relative overflow-hidden pt-8 pb-8 border-b-[1px_solid_rgba(255,_255,_255,_0.2)] w-full">
+            <div className="relative overflow-hidden pt-8 pb-8  w-full hover:after:opacity-60 after:opacity-0 opacity-60 hover:opacity-100 after:content-[''] after:absolute after:right-0 after:top-0 after:w-4/5 after:h-full after:[transition:opacity_0.5s_ease_0s] after:bg-[radial-gradient(506.71%_128.77%_at_24.44%_36.7%,_rgba(255,_255,_255,_0.2)_0%,_rgba(255,_255,_255,_0.2)_97.72%)] after:filter after:blur-[48.78px]">
               <div className="w-full  text-2xl not-italic font-medium leading-7 tracking-[6px] uppercase text-left pl-0 pr-[150px] py-0 text-white">
-                What's New
+                insider perks
               </div>
             </div>
           </div>
