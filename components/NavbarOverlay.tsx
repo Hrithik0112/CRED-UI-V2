@@ -1,7 +1,10 @@
+"use client"
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
+import { Company, InsiderPerks, Payments, WhatsNew } from "./NavOptions";
 
 const NavbarOverlay = () => {
+  const [isHovering, setIsHovering] = useState<number>(1);
   return (
     <div>
       <div className="fixed z-10 inset-0 py-[50px] px-[100px] bg-black overflow-y-scroll w-screen h-screen">
@@ -9,27 +12,27 @@ const NavbarOverlay = () => {
         <div className="pt-[200px] flex justify-start items-start w-full">
           {/* left side  */}
           <div className="flex flex-col justify-center items-center">
-            <div className="relative overflow-hidden pt-8 pb-8 border-b border-white border-opacity-20 w-full hover:after:opacity-60 after:opacity-0 opacity-60 hover:opacity-100 after:content-[''] after:absolute after:right-0 after:top-0 after:w-4/5 after:h-full after:[transition:opacity_0.5s_ease_0s] after:bg-[radial-gradient(506.71%_128.77%_at_24.44%_36.7%,_rgba(255,_255,_255,_0.2)_0%,_rgba(255,_255,_255,_0.2)_97.72%)] after:filter after:blur-[48.78px]">
+            <div className="relative overflow-hidden pt-8 pb-8 border-b border-white border-opacity-20 w-full hover:after:opacity-60 after:opacity-0 opacity-60 hover:opacity-100 after:content-[''] after:absolute after:right-0 after:top-0 after:w-4/5 after:h-full after:duration-500 after:bg-[radial-gradient(506.71%_128.77%_at_24.44%_36.7%,_rgba(255,_255,_255,_0.2)_0%,_rgba(255,_255,_255,_0.2)_97.72%)] after:filter after:blur-[48.78px]" onMouseEnter={()=> setIsHovering(1)}>
               <div className="w-full  text-2xl not-italic font-medium leading-7 tracking-[6px] uppercase text-left pl-0 pr-[150px] py-0 text-white">
                 What's New
               </div>
             </div>
-            <div className="relative overflow-hidden pt-8 pb-8 border-b border-white border-opacity-20 w-full hover:after:opacity-60 after:opacity-0 opacity-60 hover:opacity-100 after:content-[''] after:absolute after:right-0 after:top-0 after:w-4/5 after:h-full after:[transition:opacity_0.5s_ease_0s] after:bg-[radial-gradient(506.71%_128.77%_at_24.44%_36.7%,_rgba(255,_255,_255,_0.2)_0%,_rgba(255,_255,_255,_0.2)_97.72%)] after:filter after:blur-[48.78px] ">
+            <div className="relative overflow-hidden pt-8 pb-8 border-b border-white border-opacity-20 w-full hover:after:opacity-60 after:opacity-0 opacity-60 hover:opacity-100 after:content-[''] after:absolute after:right-0 after:top-0 after:w-4/5 after:h-full after:duration-500 after:bg-[radial-gradient(506.71%_128.77%_at_24.44%_36.7%,_rgba(255,_255,_255,_0.2)_0%,_rgba(255,_255,_255,_0.2)_97.72%)] after:filter after:blur-[48.78px] " onMouseEnter={()=> setIsHovering(2)}>
               <div className="w-full  text-2xl not-italic font-medium leading-7 tracking-[6px] uppercase text-left pl-0 pr-[150px] py-0 text-white">
                 PAYMENTS
               </div>
             </div>
-            <div className="relative overflow-hidden pt-8 pb-8 border-b border-white border-opacity-20 w-full hover:after:opacity-60 after:opacity-0 opacity-60 hover:opacity-100 after:content-[''] after:absolute after:right-0 after:top-0 after:w-4/5 after:h-full after:[transition:opacity_0.5s_ease_0s] after:bg-[radial-gradient(506.71%_128.77%_at_24.44%_36.7%,_rgba(255,_255,_255,_0.2)_0%,_rgba(255,_255,_255,_0.2)_97.72%)] after:filter after:blur-[48.78px]">
+            <div className="relative overflow-hidden pt-8 pb-8 border-b border-white border-opacity-20 w-full hover:after:opacity-60 after:opacity-0 opacity-60 hover:opacity-100 after:content-[''] after:absolute after:right-0 after:top-0 after:w-4/5 after:h-full after:duration-500 after:bg-[radial-gradient(506.71%_128.77%_at_24.44%_36.7%,_rgba(255,_255,_255,_0.2)_0%,_rgba(255,_255,_255,_0.2)_97.72%)] after:filter after:blur-[48.78px]" onMouseEnter={()=> setIsHovering(3)}>
               <div className="w-full  text-2xl not-italic font-medium leading-7 tracking-[6px] uppercase text-left pl-0 pr-[150px] py-0 text-white">
                 UPGRADS
               </div>
             </div>
-            <div className="relative overflow-hidden pt-8 pb-8 border-b border-white border-opacity-20 w-full hover:after:opacity-60 after:opacity-0 opacity-60 hover:opacity-100 after:content-[''] after:absolute after:right-0 after:top-0 after:w-4/5 after:h-full after:[transition:opacity_0.5s_ease_0s] after:bg-[radial-gradient(506.71%_128.77%_at_24.44%_36.7%,_rgba(255,_255,_255,_0.2)_0%,_rgba(255,_255,_255,_0.2)_97.72%)] after:filter after:blur-[48.78px]">
+            <div className="relative overflow-hidden pt-8 pb-8 border-b border-white border-opacity-20 w-full hover:after:opacity-60 after:opacity-0 opacity-60 hover:opacity-100 after:content-[''] after:absolute after:right-0 after:top-0 after:w-4/5 after:h-full after:duration-500 after:bg-[radial-gradient(506.71%_128.77%_at_24.44%_36.7%,_rgba(255,_255,_255,_0.2)_0%,_rgba(255,_255,_255,_0.2)_97.72%)] after:filter after:blur-[48.78px]" onMouseEnter={()=> setIsHovering(4)}>
               <div className="w-full  text-2xl not-italic font-medium leading-7 tracking-[6px] uppercase text-left pl-0 pr-[150px] py-0 text-white">
                 company
               </div>
             </div>
-            <div className="relative overflow-hidden pt-8 pb-8  w-full hover:after:opacity-60 after:opacity-0 opacity-60 hover:opacity-100 after:content-[''] after:absolute after:right-0 after:top-0 after:w-4/5 after:h-full after:[transition:opacity_0.5s_ease_0s] after:bg-[radial-gradient(506.71%_128.77%_at_24.44%_36.7%,_rgba(255,_255,_255,_0.2)_0%,_rgba(255,_255,_255,_0.2)_97.72%)] after:filter after:blur-[48.78px]">
+            <div className="relative overflow-hidden pt-8 pb-8  w-full hover:after:opacity-60 after:opacity-0 opacity-60 hover:opacity-100 after:content-[''] after:absolute after:right-0 after:top-0 after:w-4/5 after:h-full after:duration-500 after:bg-[radial-gradient(506.71%_128.77%_at_24.44%_36.7%,_rgba(255,_255,_255,_0.2)_0%,_rgba(255,_255,_255,_0.2)_97.72%)] after:filter after:blur-[48.78px]" onMouseEnter={()=> setIsHovering(5)}>
               <div className="w-full  text-2xl not-italic font-medium leading-7 tracking-[6px] uppercase text-left pl-0 pr-[150px] py-0 text-white">
                 insider perks
               </div>
@@ -37,13 +40,7 @@ const NavbarOverlay = () => {
           </div>
           {/* right side */}
           <div className="ml-[150px]">
-            <div className="flex flex-col justify-center items-start">
-              <Link href="#" className="mt-0">
-                <div className="text-white text-opacity-40  text-[28.08px] not-italic font-medium leading-[37.44px] tracking-[6px] uppercase cursor-pointer animate-[2s_ease_0s_1_normal_none_running_fadein]">
-                  Upcoming UPI
-                </div>
-              </Link>
-            </div>
+            <InsiderPerks/>
           </div>
         </div>
       </div>
