@@ -1,7 +1,7 @@
 "use client"
 import Link from "next/link";
 import React, { useState } from "react";
-import { Company, InsiderPerks, Payments, WhatsNew } from "./NavOptions";
+import { Company, InsiderPerks, Payments, Upgrades, WhatsNew } from "./NavOptions";
 
 const NavbarOverlay = () => {
   const [isHovering, setIsHovering] = useState<number>(1);
@@ -40,7 +40,18 @@ const NavbarOverlay = () => {
           </div>
           {/* right side */}
           <div className="ml-[150px]">
-            <InsiderPerks/>
+            {isHovering === 1 ? (
+              <WhatsNew/>
+            ) : isHovering === 2 ? (
+              <Payments/>
+            ) : isHovering === 3 ? (
+              <Upgrades/>
+            ) : isHovering === 4 ? (
+              <Company/>
+            ) : isHovering === 5 ? (
+              <InsiderPerks/>
+            ) : null}
+            {/* <InsiderPerks/> */}
           </div>
         </div>
       </div>

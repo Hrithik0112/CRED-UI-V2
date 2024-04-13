@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import NavbarOverlay from "./NavbarOverlay";
 
 const Navbar = () => {
-  const [burgerMenuActive, setBurgerMenuActive] = useState(false);
+  const [burgerMenuActive, setBurgerMenuActive] = useState(true);
 
   const togglMenuBar = () => {
     setBurgerMenuActive(!burgerMenuActive);
