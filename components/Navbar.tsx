@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import NavbarOverlay from "./NavbarOverlay";
 
+
 const Navbar = () => {
   const [burgerMenuActive, setBurgerMenuActive] = useState(true);
 
