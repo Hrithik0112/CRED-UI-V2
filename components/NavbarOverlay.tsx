@@ -13,7 +13,7 @@ const NavbarOverlay = () => {
           {/* left side  */}
           <div className="flex flex-col justify-center items-center">
             <div className="relative overflow-hidden pt-8 pb-8 border-b border-white border-opacity-20 w-full hover:after:opacity-60 after:opacity-0 opacity-60 hover:opacity-100 after:content-[''] after:absolute after:right-0 after:top-0 after:w-4/5 after:h-full after:duration-500 after:bg-[radial-gradient(506.71%_128.77%_at_24.44%_36.7%,_rgba(255,_255,_255,_0.2)_0%,_rgba(255,_255,_255,_0.2)_97.72%)] after:filter after:blur-[48.78px]" onMouseEnter={()=> setIsHovering(1)}>
-              <div className="w-full text-2xl not-italic font-medium leading-7 tracking-[6px] uppercase text-left pl-0 pr-[150px] py-0 text-white">
+              <div className="w-full text-nowrap text-2xl not-italic font-medium leading-7 tracking-[6px] uppercase text-left pl-0 pr-[150px] py-0 text-white">
                 What's New
               </div>
             </div>
@@ -33,7 +33,7 @@ const NavbarOverlay = () => {
               </div>
             </div>
             <div className="relative overflow-hidden pt-8 pb-8  w-full hover:after:opacity-60 after:opacity-0 opacity-60 hover:opacity-100 after:content-[''] after:absolute after:right-0 after:top-0 after:w-4/5 after:h-full after:duration-500 after:bg-[radial-gradient(506.71%_128.77%_at_24.44%_36.7%,_rgba(255,_255,_255,_0.2)_0%,_rgba(255,_255,_255,_0.2)_97.72%)] after:filter after:blur-[48.78px]" onMouseEnter={()=> setIsHovering(5)}>
-              <div className="w-full  text-2xl not-italic font-medium leading-7 tracking-[6px] uppercase text-left pl-0 pr-[150px] py-0 text-white">
+              <div className="w-full text-nowrap  text-2xl not-italic font-medium leading-7 tracking-[6px] uppercase text-left pl-0 pr-[150px] py-0 text-white">
                 insider perks
               </div>
             </div>
